@@ -25,11 +25,20 @@
 | [world/labor.md](world/labor.md) | 노동·기술 | ✅ |
 | [world/ecology.md](world/ecology.md) | 생물 분류·마수·침식종 | ✅ |
 | [world/scenario-narrative.md](world/scenario-narrative.md) | 시나리오·서사 구조 | ✅ |
-| world/law.md | 법·질서 체계 | ⬜ 미이관 |
-| world/language.md | 언어·명명 규칙 | ⬜ 미이관 |
-| world/currency.md | 통화·화폐 (사운드 머니 사상) | ⬜ 미이관 |
-| world/economy/part1_wages.md ~ part4_logistics.md | 경제 시스템 Part 1~4 | ⬜ 미이관 |
-| world/economy/synthesis.md | 경제 4파트 통합 (한 캐릭터 생애) | ⬜ 미작성 |
+| [world/law.md](world/law.md) | 사법·형벌 체계 — 율형원 (v1.0) | ✅ |
+| [world/language.md](world/language.md) | 언어·문자 — 결자와 통어 (v1.0) | ✅ |
+| [world/currency.md](world/currency.md) | 화폐 경제 — 영전 체계 (v1.0) | ✅ |
+| [world/education.md](world/education.md) | 교육 체계 — 각성당과 조합 도제 (v1.0) | ✅ |
+
+## 경제 시스템 (world/economy/)
+
+| 문서 | 내용 | 상태 |
+|------|------|:---:|
+| [world/economy/part1_wages.md](world/economy/part1_wages.md) | 1부: 임금·소득 체계 (v1.2, 전면 확정) | ✅ |
+| [world/economy/part2_cycles.md](world/economy/part2_cycles.md) | 2부: 경기순환 메커니즘 (v1.1) | ✅ |
+| [world/economy/part3_mobility.md](world/economy/part3_mobility.md) | 3부: 레벨×계급 전이행렬 (v1.1) | ✅ |
+| [world/economy/part4_logistics.md](world/economy/part4_logistics.md) | 4부: 물류순환망 — 축령정 물류 (v1.1) | ✅ |
+| [world/economy/synthesis.md](world/economy/synthesis.md) | 종합편: 단일 캐릭터 생애 시뮬레이션 — 하란의 42년 (v1.1) | ✅ |
 
 ## 인물 (characters/)
 
@@ -47,10 +56,15 @@
 
 ### 미이관 문서 출처
 
-⬜ 표시 문서들의 원본은 Claude 프로젝트 **"사이버펑크 선협 세계관"** 지식에 등재되어 있음 (클라우드).
+⬜ 표시 문서(SOUL.md 원본)는 Claude 프로젝트 **"사이버펑크 선협 세계관"** 지식에 등재되어 있음 (클라우드).
 로컬로 내보낸 후 이 저장소로 이관하고 상태를 갱신할 것.
 
 ### 이관 이력 (원본 → 캐논 파일명 매핑)
 
-worldbuilding-innyeok 스킬 references/에서 2026-07-07 이관:
+**1차 (2026-07-07, worldbuilding-innyeok 스킬 references/):**
 `cultivation-path.md`→`cultivation.md`, `ecosystem-classification.md`→`ecology.md`, `history-chronology.md`→`history.md`, `labor-tech.md`→`labor.md`, `innyeok-v4.md`→`overview.md`, `character-archetypes.md`→`characters/archetypes.md`. 나머지는 원본 파일명 유지.
+
+**2차 (2026-07-07, 클라우드 프로젝트 내보내기 `Downloads/innyeok_project_docs/`):**
+사법·형벌 v1.0→`law.md`, 언어·문자 v1.0→`language.md`, 화폐경제 v1.0→`currency.md`, 교육체계 v1.0→`education.md`, 경제통합분석 1~4부→`economy/part1~4_*.md`, 종합편 생애시뮬레이션 v1.1→`economy/synthesis.md`.
+내보내기 파일 23개 중 14개는 1차 이관분과 동일 내용(표본 대조 확인)이라 재이관하지 않음. 경제 3부 v1.0은 v1.1로 대체되어 제외.
+원본 파일들은 .docx 확장자지만 실제로는 UTF-8 마크다운 텍스트임.
