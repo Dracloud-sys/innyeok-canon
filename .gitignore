@@ -1,0 +1,6 @@
+# Obsidian 볼트 설정 (기기별 로컬 설정 — 캐논 아님)
+.obsidian/
+
+# OS 잡파일
+Thumbs.db
+.DS_Store
